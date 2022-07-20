@@ -1,5 +1,5 @@
 /* -----css fonts ---*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
 /* -------------header-area-start -------------*/
 .container {
     width: 80%;
-    margin: 50px auto;
+    margin: 60px auto;
 }
 
 .hero-area {
@@ -37,7 +37,7 @@ body {
 .section-title {
     font-size: 50px;
     line-height: 1.2em;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: capitalize;
 
 
@@ -54,6 +54,7 @@ body {
     text-decoration: none;
     color: white;
     border-radius: 5px;
+    font-weight: 500;
 
 }
 
@@ -65,4 +66,77 @@ body {
 .banner img {
     margin-bottom: 0;
     width: 450px;
+}
+
+/*-------------- Blog-area ---------------*/
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+
+}
+
+.menu-area {
+    background-color: #130f40;
+    padding: 20px;
+    border-radius: 9px;
+    flex-basis: 24%;
+
+
+}
+
+.menu-area a {
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+    display: block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #eb3b5a !important;
+    color: white !important;
+}
+
+.blog-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    flex-basis: 76%;
+}
+
+.blog {
+    border: 1px solid gainsboro;
+    border-top: none;
+
+}
+
+.blog-baner img {
+    width: 100%;
+}
+
+.blog-detail {
+    padding: 10px;
+
+
+}
+
+.blog-button {
+    padding: 3px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.blog-duration span {
+    margin-left: 10px;
+}
+
+.blog-duration i {
+    margin: 10px 5px;
 }
