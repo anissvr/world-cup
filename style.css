@@ -1,5 +1,5 @@
 /* -----css fonts ---*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 * {
     margin: 0;
@@ -8,5 +8,61 @@
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------header-area-start -------------*/
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.hero-area {
+    background-color: #130f40;
+    border-radius: 15px;
+    padding: 20px 50px 0px 50px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+
+
+}
+
+.text-info {
+    width: 40%;
+    margin-top: 40px;
+
+}
+
+.section-title {
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 900;
+    text-transform: capitalize;
+
+
+}
+
+.section-details {
+    font-size: 14px;
+    margin: 40px 0;
+}
+
+.red-button {
+    padding: 10px 20px;
+    background-color: #eb3b5a;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.fa-arrow-right-long,
+.arrow {
+    margin-left: 8px;
+}
+
+.banner img {
+    margin-bottom: 0;
+    width: 450px;
 }
