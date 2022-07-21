@@ -187,10 +187,7 @@ footer {
     margin: 0 auto;
 }
 
-.footer-menu {
-    /* display: flex;
-    justify-content: center; */
-}
+
 
 hr {
     margin: 40px 0;
@@ -310,16 +307,18 @@ hr {
         margin: 9px;
     }
 
+
+
     .hidden-button {
         display: block;
         padding: 10px 30px;
         background-color: #eb3b5a;
         text-decoration: none;
-        display: inline-block;
+        display: block;
         text-align: center;
         color: white;
         border-radius: 5px;
-        margin: 10px 0px 0px 120px;
+
 
     }
 
@@ -365,11 +364,12 @@ hr {
     .blogs {
         flex-direction: row;
         flex-basis: 100%;
+
     }
 
     .menu-area {
         flex-basis: 100%;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .blog-area,
